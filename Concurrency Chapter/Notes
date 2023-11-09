@@ -1,0 +1,50 @@
+Concurrency
+-----------
+For better utilization of resources, concurrency is implemented through multitasking.
+Multitasking is switching of CPU from one process to another. It is not parallelism.
+Since the switching is very fast, it appears as if they are parallel.
+
+Threads
+-------
+Threads are lightweight, part of a process. A process contains many threads.
+There are two types of Threads - Deamon(Background thread) and Non-Deamon threads.
+Thread scheduler is responsible for switching of threads
+
+Race Condition (Shared mutable objects)
+--------------
+Accessing mutable object with two threads at a time and the final output of program depends on the
+relative timing of thread execution.
+Leads to unpredictable values, data corruption.
+Ex: Bank amount withdrawal, Railway booking
+
+Volatile variables
+------------------
+Normally, compiler reorder codes for optimizations, and also different thread operating on different processors
+have their own copy of variables with their cache.
+So if two threads manipulating and reading the variable from different processors, the value may be inconsistent.
+As the data write in memory can be queued.
+
+If a variable is volatile, then no reordering is done and also no caching is done for the variable.
+Only one copy of the variable will be with the main memory directly.
+
+Why Interruption
+----------------
+The stop method of the Thread class is deprecated, because forcefully stopping may leave any shared resource
+in the middle, so interruption is a co operative way to request to stop by doing some finishing operations(clean up)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
