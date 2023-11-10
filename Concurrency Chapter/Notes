@@ -32,6 +32,11 @@ Why Interruption
 The stop method of the Thread class is deprecated, because forcefully stopping may leave any shared resource
 in the middle, so interruption is a co operative way to request to stop by doing some finishing operations(clean up)
 
+Problems with traditional synchronized keyword (Solution : Lock Interface) :
+--------------------------------------------------------------------------
+-> Thread have to wait until getting lock, no alternate way available if there is no lock available for long time
+-> This may cause performance problem or Deadlocks
+-> Synchronized lock are not available across multiple methods
 
 
 
