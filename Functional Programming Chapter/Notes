@@ -1,0 +1,18 @@
+Functional Style Programming:
+----------------------------
+
+1. Lambda
+---------
+-> Anonymous function
+-> When we need to pass the functionality
+-> Efficient because no object is created (efficient than anonymous objects)
+
+Functional Interface - Single Abstract Method Interface(SAM)
+
+It is better to use semantic standard functional interfaces instead of creating our own.
+
+*** Predicate Interface - Returns boolean, used for filtering
+*** Function Interface - Accepts and Returns, used for applying some transformation
+*** Consumer Interface - Only accepts not Returning (Collections.forEach uses a Consumer as argument)
+*** Supplier Interface - Only returns not Accepting
+
