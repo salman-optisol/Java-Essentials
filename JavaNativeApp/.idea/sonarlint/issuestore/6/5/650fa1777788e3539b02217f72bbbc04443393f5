@@ -1,0 +1,13 @@
+
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Ä¹É”Ö1
+h
+java:S2184"FCast one of the operands of this multiplication operation to a "long".(µÉËåýÿÿÿÿ8ÈÆË”Ö1
+c
+java:S2184"FCast one of the operands of this multiplication operation to a "long".(ÖÞ–Ã8’·Ï”Ö1
+‹
+java:S1130"nRemove the declaration of thrown exception 'java.awt.AWTException', as it cannot be thrown from method's body.(Ã‡ËÀ8ÒÆË”Ö1
+{
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8È¹É”Ö1
+G	java:S106"+Replace this use of System.out by a logger.(Â¶„—8È¹É”Ö1
+L	java:S106"+Replace this use of System.out by a logger.(½¨öªøÿÿÿÿ8É¹É”Ö1
+F	java:S106"+Replace this use of System.out by a logger.(þÚ¢p8ˆ‡Ð”Ö1
