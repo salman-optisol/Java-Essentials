@@ -5,10 +5,21 @@ import java.awt.event.InputEvent;
 import java.util.Random;
 
 public class Util {
-    static void clicker() throws AWTException {
-        Robot user = new Robot();
+    static Robot user;
+    static {
+        try {
+            user = new Robot();
+        } catch (AWTException e) {
+            throw new RuntimeException(e);
+        }
+    }
+    static void clicker() {
         user.mousePress(InputEvent.BUTTON1_DOWN_MASK);
         user.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
+    }
+
+    static void scroller() {
+        user.mouseWheel(5);
     }
 
     static int getInterval() {

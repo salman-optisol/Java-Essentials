@@ -1,0 +1,14 @@
+
+X
+java:S1119C";Refactor the code to remove this label and the need for it.(ÂúœÎ8­”¸Ú1
+L	java:S106D"+Replace this use of System.out by a logger.(ª×µîøÿÿÿÿ8®”¸Ú1
+G	java:S106E"+Replace this use of System.out by a logger.(—ªˆ8®”¸Ú1
+G	java:S106F"+Replace this use of System.out by a logger.(Ì·˜Ÿ8®”¸Ú1
+L	java:S106T"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8¯”¸Ú1
+L	java:S106U"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8¯”¸Ú1
+G	java:S106["+Replace this use of System.out by a logger.(ûäàÈ8¯”¸Ú1
+L	java:S106b"+Replace this use of System.out by a logger.(¡Ô‰íüÿÿÿÿ8°”¸Ú1
+F	java:S106d"+Replace this use of System.out by a logger.(²îá8±”¸Ú1
+G	java:S106f"+Replace this use of System.out by a logger.(”œÜ8±”¸Ú1
+H	java:S106"+Replace this use of System.out by a logger.(Ó×¸¿8³”¸Ú1
+H	java:S106‰"+Replace this use of System.out by a logger.(ûäàÈ8³”¸Ú1
